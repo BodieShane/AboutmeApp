@@ -91,12 +91,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView"
+        android:text="games_text"
+        android:id="@+id/games_text"
         android:layout_below="@+id/TextForCamp"
-        android:layout_alignRight="@+id/MyName"
-        android:layout_alignEnd="@+id/MyName"
-        android:layout_marginRight="52dp"
-        android:layout_marginEnd="52dp" />
+        android:layout_toRightOf="@+id/campbutton"
+        android:layout_toEndOf="@+id/campbutton"
+        android:layout_marginTop="23dp" />
 
 </RelativeLayout>
