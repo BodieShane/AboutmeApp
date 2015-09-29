@@ -4,13 +4,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android. widget.Button;
+import android. widget.TextView;
+
 
 public class AboutMeApp extends AppCompatActivity {
+    private Button Roboticbutton;
+    private Button Gamebutton;
+    private Button cookingbutton;
+    private Button campbutton;
+    private Button MyName;
+    private Button schoolbutton;
+    private TextView aboutMeText;
+    private TextView TextForSchool;
+    private TextView TextForCamp;
+    private TextView games_text;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me_app);
+
+
     }
 
     @Override
@@ -34,4 +50,5 @@ public class AboutMeApp extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

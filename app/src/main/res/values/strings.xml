@@ -1,13 +1,13 @@
-<>
+<resources>
     <string name="app_name">About me App</string>
     <string name="about_me_text">Hi I’m Bodie Shane. I am a hard working teen who finishes what he starts. I always bring a good smile and positive attuned to the class. I work well with others.</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="TextForSchool"> My mom is a teacher so I have always had help with my homework. I work hard in all my classes and some how managing to balance clubs on top of it. </string>
     <string name="TextForCamp"> I love camp. I am a camp consular up at Camp Tuttle. games are fun but is nice to get away from games and just enjoy the camp fire. That and get paid.</string>
-    <string name="
-
-
+    <string name="TextForGames">  I am a huge gamer I played games all the time growing up. To prove how much I am a geek I am missing 2 achievements on Skyrim. So that’s what I do with my free time.</string>
+    <string name="TextForCooking">Took a food’s class last year. I cook with my dad once a week. My grandmother also comes by to cook with me and make some sweat desert.</string>
+    <string name="TextForRobotics">I joined robotic last year as a new student to school. I fell in love with the program after the first week. We ended up having the cheapest robot there but we still ended up in the top 50%. </string>
 
 
 </resources>
