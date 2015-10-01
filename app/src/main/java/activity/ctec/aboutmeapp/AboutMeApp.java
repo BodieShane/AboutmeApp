@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android. widget.Button;
 import android. widget.TextView;
+import android. view.View;
+import android. widget.ImageView;
 
 
 public class AboutMeApp extends AppCompatActivity {
@@ -21,14 +23,82 @@ public class AboutMeApp extends AppCompatActivity {
     private TextView games_text;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me_app);
 
-
+    MyName = (Button) findViewById(R.id.MyName);
+    campbutton = (Button) findViewById(R.id.campbutton);
+        Roboticbutton  = (Button) findViewById(R.id.Roboticbutton);
+        Gamebutton = (Button) findViewById(R.id.Gamebutton);
+        cookingbutton  = (Button) findViewById(R.id.cookingbutton);
+        schoolbutton  = (Button) findViewById(R.id.schoolbutton);
     }
 
+
+
+
+  public void setuplisteners()
+  {
+
+    cookingbutton.setOnClickListener(new View.OnClickListener()
+      {
+        public void onClick(View v)
+        {
+            changeVisibility();
+        }
+      });
+
+
+      MyName.setOnClickListener(new View.OnClickListener()
+      {
+         public void onClick(View v)
+         {
+             changeVisibility();
+         }
+      });
+      Roboticbutton.setOnClickListener(new View.OnClickListener()
+      {
+          public void onClick(View v)
+          {
+              changeVisibility();
+          }
+      });
+      campbutton.setOnClickListener(new View.OnClickListener()
+      {
+          public void onClick(View v)
+          {
+              changeVisibility();
+          }
+
+      });
+    Gamebutton.setOnClickListener(new View.OnClickListener()
+    {
+        public void onClick(View v)
+        {
+            changeVisibility();
+        }
+    });
+  }
+
+
+
+private void changeVisibility()
+{
+    if(aboutMeText.getVisibility() == View.GONE)
+    {
+        aboutMeText.setVisibility(View.VISIBLE);
+    }
+    else
+    {
+        aboutMeText.setVisibility(View.GONE);
+    }
+
+
+
+}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
