@@ -103,7 +103,7 @@ public class AboutMeApp extends AppCompatActivity {
               bodieshanepic .setVisibility(View.GONE);
               Gaming.setVisibility(View.GONE);
               schoolpic .setVisibility(View.VISIBLE);
-              CampPic .setVisibility(View.GONE);
+             CampPic .setVisibility(View.GONE);
           }
       });
 
@@ -123,7 +123,7 @@ public class AboutMeApp extends AppCompatActivity {
              bodieshanepic .setVisibility(View.VISIBLE);
              Gaming.setVisibility(View.GONE);
              schoolpic .setVisibility(View.GONE);
-             CampPic .setVisibility(View.GONE);
+            CampPic .setVisibility(View.GONE);
          }
       });
       Roboticbutton.setOnClickListener(new View.OnClickListener()
@@ -142,7 +142,7 @@ public class AboutMeApp extends AppCompatActivity {
               bodieshanepic .setVisibility(View.GONE);
               Gaming.setVisibility(View.GONE);
               schoolpic .setVisibility(View.GONE);
-              CampPic .setVisibility(View.GONE);
+             CampPic .setVisibility(View.GONE);
           }
       });
       campbutton.setOnClickListener(new View.OnClickListener()
@@ -161,7 +161,7 @@ public class AboutMeApp extends AppCompatActivity {
               bodieshanepic .setVisibility(View.GONE);
               Gaming.setVisibility(View.GONE);
               schoolpic .setVisibility(View.GONE);
-              CampPic .setVisibility(View.VISIBLE);
+             CampPic .setVisibility(View.VISIBLE);
           }
 
       });
@@ -181,7 +181,7 @@ public class AboutMeApp extends AppCompatActivity {
             bodieshanepic .setVisibility(View.GONE);
             Gaming.setVisibility(View.VISIBLE);
             schoolpic .setVisibility(View.GONE);
-            CampPic .setVisibility(View.GONE);
+          CampPic .setVisibility(View.GONE);
         }
     });
   }
